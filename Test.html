@@ -35,7 +35,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project Manager</a>
+          <a class="navbar-brand" href="Test.html">Test</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -52,22 +52,40 @@
       <div class="row">
         
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1 class="page-header">Welcome "UserName"</h1>
+		<h1 class="page-header">Test</h1>
+		<div class="col-md-5">
+          
+		<form>
+			<label for="Name">Name :</label></br>
+			<input type="text" class="form-control" name="Name"  placeholder="Enter a name" size="30" maxlength="10" /></br></br>
+			<label for="Description">Description :</label></br>
+			<textarea class="form-control" name="Description"  rows="5" cols="40" placeholder="Bla bla bla bla ..."></textarea></br></br>
 
-		 </div> 
-		<form>
-			First name:<br>
-			<input type="text" name="firstname">
-			<br>
-			Last name:<br>
-			<input type="text" name="lastname">
+			<label for="State">State :</label></br>
+			<input type="radio" name="State" value="Validé" >Validé </br>
+			<input type="radio" name="State" value="En cours de validation" >En cours de validation</br>
+			<input type="radio" name="State" value="Fail" >Fail</br>
+			<input type="radio" name="State" value="En régression" >En régression </br></br>	
+			
+			<label for="Report">Report :</label></br>
+			<textarea class="form-control" name="Report"  rows="5" cols="40" placeholder="Bla bla bla bla ..."></textarea></br></br>
 		</form>
-		<form>
-<input type="radio" name="sex" value="male" checked>Male
-<br>
-<input type="radio" name="sex" value="female">Female
-</form>
-		</div>  
+		<div class="button">
+				<p>       
+					<button type="button" class="btn btn-lg btn-success">Send</button>   
+
+					<!--@white-space-->
+					
+					<button type="button" class="btn btn-lg btn-danger">Cancel</button>
+
+				</p>
+			</div>  
+		</div>
+		
+		
+		 </div> 
+		 </div>
+		 
 	</div>	  
 <!-- Bootstrap core JavaScript
     ================================================== -->
